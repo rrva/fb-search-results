@@ -3,13 +3,13 @@ Scrape thousands of Facebook search places results.
 
 [Facebook Graph API](https://developers.facebook.com/docs/graph-api) has a limit of 400-450 results per query so this why I have decided to make this bot and get all results without limits.
 
-- [Installation & Setup](#installation--setup)
+- [Installation](#installation)
   - [Usage](#usage)
 - [Debugging](#debugging)
 - [Disclaimer](#disclaimer)
 ![Fb Search Results Bot Scraper](https://i.imgur.com/Vac1qCi.png)
 
-# Installation & Setup
+# Installation
 
 **This project requires to [have Node.js installed](https://nodejs.org).**
 
