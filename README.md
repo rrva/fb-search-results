@@ -43,4 +43,4 @@ The first option shows a window of the bot working, so you can see what's doing.
 The second option does the same like the previous option but this option also will give you more depth information about the bot actions.
 
 # Disclaimer
-This bot is only for educational purposes. Read [Facebook.com scraping policy](https://www.facebook.com/apps/site_scraping_tos_terms.php) before to use it.
+This bot is only for educational purposes. Read [Facebook.com scraping policy](https://www.facebook.com/apps/site_scraping_tos_terms.php) before use it.
