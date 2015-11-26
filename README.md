@@ -32,6 +32,10 @@ $ node fb.js
 - **Target url**
   - The target url must follow this format: <br> [**https://m.facebook.com/search/str/**](https://m.facebook.com/search/str/keyword here/keywords_places)``keyword here``[**/keywords_places**](https://m.facebook.com/search/str/keyword here/keywords_places)
   - Example of a valid target url: **https://m.facebook.com/search/str/Bartending%2BService%2BColorado/keywords_places**
+- **Adjust bot speed**
+  - Depending of your machine environment you will need to increment/decrease the wait time var (``525ms`` by default)
+  - An incorrect value (too low mainly) will result in less results scraped
+  - You can find this variable ``var WAIT_CONST = 525`` in line [**107**](https://github.com/alfonbots/fb-search-results/blob/master/fb.js#L107)
  
 
 # Debugging
