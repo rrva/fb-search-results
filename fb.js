@@ -104,7 +104,7 @@ function scrapeFbResultsData(targetUrl) {
                 var scrapedFbIds = {};
                 var elementsToHide = {};
                 var numFbIdsLastRound = 0;
-                var WAIT_CONST = 750;
+                var WAIT_CONST = 525;
                 do {
                     var scrapedResults = yield nightmare.evaluate(function() {
                         var currentScrapedIds = [];
