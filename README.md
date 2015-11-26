@@ -1,10 +1,10 @@
 # Facebook Search Results Scraper
 Work In Progress ...
 
-- [Installation & Setup]()
-  - [Usage]()
-- [Debugging]()
-- [Disclaimer]()
+- [Installation & Setup](#installation--setup)
+  - [Usage](#usage)
+- [Debugging](#debugging)
+- [Disclaimer](#disclaimer)
 ![Fb Search Results Bot Scraper](https://i.imgur.com/Vac1qCi.png)
 
 # Installation & Setup
