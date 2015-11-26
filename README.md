@@ -25,5 +25,9 @@ Run the app
 $ node fb.js
 ```
 # Debugging
-``DEBUG=nightmare node --harmony cnn.js --debug``
-on Windows use ``DEBUG=nightmare & node cnn.js --debug``
+There are two ways to get more information and know what's happening inside the bot.
+
+1. ``node fb.js --debug``
+2. ``DEBUG=nightmare node --harmony fb.js --debug`` (on Windows use ``DEBUG=nightmare & node fb.js --debug``)
+
+# Disclaimer
