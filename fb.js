@@ -96,7 +96,7 @@ function scrapeFbResultsData(targetUrl) {
                 yield nightmare
                     .useragent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36')
                     .goto(targetUrl)
-                    .wait(1500)
+                    .wait(1000)
                 var pageHeight = yield nightmare.evaluate(function() { return document.body.scrollHeight });
                 var bottomDetected = false;
                 var t0 = new Date().getTime();
@@ -104,6 +104,7 @@ function scrapeFbResultsData(targetUrl) {
                 var scrapedFbIds = {};
                 var elementsToHide = {};
                 var numFbIdsLastRound = 0;
+                var WAIT_CONST = 750;
                 do {
                     var scrapedResults = yield nightmare.evaluate(function() {
                         var currentScrapedIds = [];
@@ -136,12 +137,11 @@ function scrapeFbResultsData(targetUrl) {
                     setStatus('* Scrolling down in search results... #' + scrollDownCount);
                     yield nightmare
                         .scrollTo(pageHeight, 0)
-                        .wait(5000)
                     if (Object.keys(elementsToHide).length > 0) {
                         var numElementsToHide = Object.keys(elementsToHide).length;
                         for (var i = 0; i < numElementsToHide; i++) {
                             yield nightmare
-                                .wait(1000)
+                                .wait(WAIT_CONST)
                                 .evaluate(function(elementId) {
                                     document.querySelector('div[data-xt*="' + elementId + '"]').style.display = 'none';
                                 }, elementsToHide[i].result_id)
