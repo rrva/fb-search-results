@@ -1,7 +1,7 @@
 # Facebook Search Results Scraper
 Work In Progress ...
 
-- [Installation]()
+- [Installation & Setup]()
   - [Usage]()
 - [Debugging]()
 - [Disclaimer]()
@@ -29,6 +29,9 @@ Run the app
 $ node fb.js
 ```
 ### Usage
+
+....
+
 # Debugging
 There are two ways to get more information and know what's happening inside the bot.
 
