@@ -40,6 +40,6 @@ There are two ways to get more information and know what's happening inside the 
 
 The first option shows a window of the bot working, so you can see what's doing.
 
-The second option is like the previous option but this will give you more depth information about the bot actions.
+The second option does the same like the previous option but this option also will give you more depth information about the bot actions.
 
 # Disclaimer
