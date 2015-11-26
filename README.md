@@ -1,5 +1,7 @@
 # Facebook Search Results Scraper
 
+![Fb Search Results Bot Scraper](https://i.imgur.com/Vac1qCi.png)
+
 * [Installation & Setup]()
 * [Debugging]()
 * [Disclaimer]()
@@ -7,7 +9,7 @@
 # Installation & Setup
 ### Clone the repository in your machine 
 ```
-$ git clone https://github.com/alfonbots/fb-search-results
+$ git clone https://github.com/alfonbots/fb-search-results.git
 $ cd fb-search-results/
 ```
 ### Install the needed packages
