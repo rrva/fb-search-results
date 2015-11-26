@@ -30,8 +30,11 @@ $ node fb.js
 ```
 ### Usage
 
-...
+The target url must follow this format:
+- [**https://m.facebook.com/search/str/**](https://m.facebook.com/search/str/keyword here/keywords_places) ``keyword here`` [**/keywords_places**](https://m.facebook.com/search/str/keyword here/keywords_places)
 
+Example of a valid target url: 
+- **https://m.facebook.com/search/str/Bartending%2BService%2BColorado/keywords_places**
 # Debugging
 There are two ways to get more information and know what's happening inside the bot.
 
