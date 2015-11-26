@@ -2,8 +2,8 @@ var fs = require('fs'),
     vo = require('vo'),
     sleep = require('sleep'),
     colors = require('colors'),
-    cheerio = require('cheerio'),
     prompt = require('readline-sync'),
+    cheerio = require('cheerio'),
     Nightmare = require('nightmare');
 
 var currentTimeStamp = Date.now();
