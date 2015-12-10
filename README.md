@@ -5,7 +5,7 @@ Scrape thousands of Facebook search places results.
 
 - [Installation](#installation)
   - [Usage](#usage)
-  - [How the bot works]()
+  - [How the bot works](#how-the-bot-works)
 - [Debugging](#debugging)
 - [Disclaimer](#disclaimer)
 ![Fb Search Results Bot Scraper](https://i.imgur.com/Vac1qCi.png)
